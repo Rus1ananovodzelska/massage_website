@@ -1,0 +1,77 @@
+*,
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+@import 'reset';
+
+
+
+body {
+    font: 20px 'Montserrat', sans-serif;
+}
+.header {
+   padding: 0 80px; 
+   display: flex;
+   justify-content: space-between;
+
+   &.logo {
+       width: 100px;
+       height: 60px;
+       display: flex;
+   }
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+            
+    &-list {
+        margin: 0 20px;
+
+        &-link {
+            font-weight: bold; 
+            text-transform: uppercase;
+            color: rgb(25, 214, 98);
+            text-decoration: none; 
+
+            &:hover {
+            text-decoration: underline;
+            }
+        }
+    }
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+} 
+
+
+
+
+
+
+/* tablet */
+
+@media only screen
+and (min-width: 1024px)
+and (max-width: 1439px) {
+
+
+
+}
+
+/* mobile */
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 1023px) {
+
+
+
+}
